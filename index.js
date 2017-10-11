@@ -1,8 +1,12 @@
 
 module.exports = jMoment
 
-var moment = require('moment')
-  , jalaali = require('jalaali-js')
+function interop(exports){
+  return exports && exports.default || exports
+}
+
+var moment = interop(require('moment'))
+  , jalaali = interop(require('jalaali-js'))
 
 /************************************
     Constants
